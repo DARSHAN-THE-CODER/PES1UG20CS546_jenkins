@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/darshanv/Documents/sem 6/CC/Assignment2/Jenkins_lab/main",
+      "program": "/Users/darshanv/Documents/sem 6/CC/Assignment2/Jenkins_lab/main/build/Debug/outDebug"
+    }
+  ]
+}
