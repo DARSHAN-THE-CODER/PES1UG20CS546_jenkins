@@ -20,7 +20,7 @@ pipeline {
 //         echo 'Deployment successful'
 //       }
 //     }
-//   }
+  }
   post{
     always{
       echo 'pipeline is success'
