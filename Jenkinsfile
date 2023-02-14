@@ -14,12 +14,12 @@ pipeline {
         echo 'test stage successful'
      }
     }
-//     stage('Deploy'){
-//       steps{
-//         sh 'scp myprogram user@server:/path/to/deploy'
-//         echo 'Deployment successful'
-//       }
-//     }
+    stage('Deploy'){
+      steps{
+        sh 'scp myprogram user@server:/path/to/deploy'
+        echo 'Deployment successful'
+      }
+    }
   }
   post{
     always{
